@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameList</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,200&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@400&family=Material+Symbols+Rounded:opsz@48">
+
+</head>
+<body>
+
+    <nav class="navbar-header">
+        <a href="#" class="logo">GameList</a>
+
+        <div class="navbar-navbar-custom">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="game.html">Game award</a>
+            
+
+        </div>
+        <label id="hamburger-menu"> <i data-feather="menu"></i></label>
+
+      
+    </nav>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, fuga.</p>
+
+        <div class="Location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.3935825898766!2d106.94771517531565!3d-6.721735093274187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69b5db2814c083%3A0xaddeb6c95319d49c!2sWahana%20Singa%20Laut%20Taman%20Safari!5e0!3m2!1sid!2sid!4v1701870528587!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            
+        </div>
+    </section>
+    
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <span>
+                        <h5>08987826167800</h5>
+                        <p>Monday to Sunday, 9AM to 7PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>
+                        <h5>XXYZ Road, ABCD Building</h5>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>info@loker.com</h5>
+                        <P>Email us your query</P>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Your Name" required 
+                        oninvalid="this.setCustomValidity('Please enter Your Name')" 
+                        oninput="this.setCustomValidity('')">
+                    </div>
+            
+                    <div class="input-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Your Email" name="eamil" required
+                        oninvalid="this.setCustomValidity('Please enter Your Email')" 
+                        oninput="this.setCustomValidity('')">
+                    </div>
+            
+                    <div class="input-group">
+                        <i class="fas fa-phone-alt"></i>
+                        <input type="tel" placeholder="Phone Number" pattern="(\+62|62|0)8[1-9][0-9]{6,9}$" required
+                        oninvalid="this.setCustomValidity('Please enter Your Phone number')"
+                        oninput="validatePhoneNumber(this)">
+                    </div>
+                    <button type="submit" class="btn" value="Submit">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    
+    
+     
+
+
+    <footer>
+ 
+
+        <div class="credit">
+          <p>Create by Steven Wijaya | &copy; 2023</p>
+
+        </div>
+      </footer>
+
+
+
+
+
+
+
+   <script>
+    feather.replace();
+   </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script src="main.js"></script>
+   
+        
+    
+</body>
+</html>
