@@ -1452,6 +1452,11 @@ footer {
         font-size: 12px;
     }
 
+    .box .box-img img {
+        width: 180px;
+        height: 300px;
+    }
+
  
 
     .box p {
